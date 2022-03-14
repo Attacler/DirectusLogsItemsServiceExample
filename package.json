@@ -1,0 +1,17 @@
+{
+  "name": "directushooktest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "directus start",
+    "migrate": "directus database migrate:latest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "directus": "^9.6.0",
+    "sqlite3": "^5.0.2"
+  }
+}
